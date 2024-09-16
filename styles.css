@@ -1,0 +1,32 @@
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1438' height='1477' preserveAspectRatio='none' viewBox='0 0 1438 1477'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1738%26quot%3b)' fill='none'%3e%3crect width='1438' height='1477' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M175 1477L1652 0L2186 0L709 1477z' fill='url(%26quot%3b%23SvgjsLinearGradient1739%26quot%3b)'%3e%3c/path%3e%3cpath d='M1248 1477L-229 0L-392.5 0L1084.5 1477z' fill='url(%26quot%3b%23SvgjsLinearGradient1740%26quot%3b)'%3e%3c/path%3e%3cpath d='M503.21974692776644 1477L1438 542.2197469277664L1438 1477z' fill='url(%26quot%3b%23SvgjsLinearGradient1739%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 1477L934.7802530722336 1477L 0 542.2197469277664z' fill='url(%26quot%3b%23SvgjsLinearGradient1740%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1738'%3e%3crect width='1438' height='1477' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1739'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1740'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333333;
+}
+
+#urlInput {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#shortenBtn {
+    border-radius: 5px;
+    font-size: 16px;
+}
